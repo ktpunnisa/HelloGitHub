@@ -1,6 +1,11 @@
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello, Git");
+		greet("Punnisa Jitwirot");
 	}
+	private static void greet(String name) {
+		System.out.println("Hello, Git");
+		System.out.println("I'm "+name);
+	}
+	
 }
